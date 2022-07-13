@@ -1,0 +1,51 @@
+[
+    {
+        "name": "basic",
+        "price": 5,
+        "description": "A basic item",
+        "image": "store_images/pexels-cottonbro-4155490.jpg"
+    },
+    {
+        "name": "intermediate",
+        "price": 4.95,
+        "description": "A basic item",
+        "image": "store_images/pexels-cottonbro-4155435.jpg"
+    },
+    {
+        "name": "advanced",
+        "price": 6.95,
+        "description": "A basic item",
+        "image": "store_images/pexels-monstera-6620882.jpg"
+    },
+    {
+        "name": "expert",
+        "price": 7.3,
+        "description": "A basic item",
+        "image": "store_images/pexels-karolina-grabowska-4040638.jpg"
+    },
+
+    {
+        "name": "basic",
+        "price": 5,
+        "description": "A basic item",
+        "image": "store_images/pexels-cottonbro-4155447.jpg"
+    },
+    {
+        "name": "intermediate",
+        "price": 4.95,
+        "description": "A basic item",
+        "image": "store_images/pexels-cottonbro-7190316.jpg"
+    },
+    {
+        "name": "advanced",
+        "price": 6.95,
+        "description": "A basic item",
+        "image": "store_images/pexels-monstera-6620948.jpg"
+    },
+    {
+        "name": "expert",
+        "price": 7.3,
+        "description": "A basic item",
+        "image": "store_images/pexels-karolina-grabowska-4040589.jpg"
+    }
+]
