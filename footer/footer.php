@@ -1,7 +1,7 @@
-<style><?php require __DIR__ . "/" . "styles.css"; ?></style>
-<script><?php require __DIR__ . "/" . "script.js"; ?></script>
-
 <section class="footer">
+
+    <style><?php require __DIR__ . "/" . "styles.css"; ?></style>
+    <script><?php require __DIR__ . "/" . "script.js"; ?></script>
 
     <div class="container">
         <div class="footer-title">
@@ -27,7 +27,7 @@
         <br><br>
 
         <div class="copyright">
-            <p>&copy; 2018 Moody Bath Co. All rights reserved.</p>
+            <p>&copy; <?php echo date("Y"); ?> Moody Bath Co. All rights reserved.</p>
             <a href="policy.html">Terms and Conditions</a>
             <a href="privacy.html">Privacy Policy</a>
             <a href="cookies.html">Cookie Policy</a>

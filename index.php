@@ -9,7 +9,7 @@
     <body>
 
 <?php require __DIR__ . "/" . "head/header.php"; ?>
-<?php require __DIR__ . "/" . "store/items.php"; ?>
+<?php require __DIR__ . "/" . "store/store.php"; ?>
 <?php require __DIR__ . "/" . "footer/footer.php"; ?>
 
     </body>

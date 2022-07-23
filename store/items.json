@@ -1,51 +1,59 @@
 [
     {
-        "name": "basic",
+        "slug": "happiness-bath",
+        "name": "happiness",
         "price": 5,
-        "description": "A basic item",
-        "image": "store_images/pexels-cottonbro-4155490.jpg"
+        "description": "Bath ritual package for positivity and joy",
+        "image": "/store/images/pexels-cottonbro-4155490.jpg"
     },
     {
-        "name": "intermediate",
+        "slug": "serene-bath",
+        "name": "serenety",
         "price": 4.95,
-        "description": "A basic item",
-        "image": "store_images/pexels-cottonbro-4155435.jpg"
+        "description": "Bath ritual package for serenity and peace",
+        "image": "/store/images/pexels-cottonbro-4155435.jpg"
     },
     {
-        "name": "advanced",
+        "slug": "compassion-bath",
+        "name": "compassion",
         "price": 6.95,
-        "description": "A basic item",
-        "image": "store_images/pexels-monstera-6620882.jpg"
+        "description": "Bath ritual package for compassion and love",
+        "image": "/store/images/pexels-monstera-6620882.jpg"
     },
     {
-        "name": "expert",
+        "slug": "intuition-ritual",
+        "name": "intuition",
         "price": 7.3,
-        "description": "A basic item",
-        "image": "store_images/pexels-karolina-grabowska-4040638.jpg"
+        "description": "Ritual package for intuition and insight",
+        "image": "/store/images/pexels-karolina-grabowska-4040638.jpg"
     },
 
     {
-        "name": "basic",
+        "slug": "devotion-bath",
+        "name": "devotion",
         "price": 5,
-        "description": "A basic item",
-        "image": "store_images/pexels-cottonbro-4155447.jpg"
+        "description": "Bath ritual package for devotion and dedication",
+        "image": "/store/images/pexels-cottonbro-4155447.jpg"
     },
     {
-        "name": "intermediate",
+        "slug": "intention-bath",
+        "name": "intention",
         "price": 4.95,
-        "description": "A basic item",
-        "image": "store_images/pexels-cottonbro-7190316.jpg"
+        "description": "Bath ritual package for intention and purpose",
+        "image": "/store/images/pexels-cottonbro-7190316.jpg"
     },
     {
-        "name": "advanced",
+        "slug": "optimism-bath",
+        "name": "optimism",
         "price": 6.95,
-        "description": "A basic item",
-        "image": "store_images/pexels-monstera-6620948.jpg"
+        "description": "Bath ritual package for optimism and confidence",
+        "image": "/store/images/pexels-monstera-6620948.jpg"
     },
     {
-        "name": "expert",
+        "slug": "clarity-ritual",
+        "name": "clarity",
         "price": 7.3,
-        "description": "A basic item",
-        "image": "store_images/pexels-karolina-grabowska-4040589.jpg"
+        "description": "Ritual package for clarity and perspective",
+        "image": "/store/images/pexels-karolina-grabowska-4040589.jpg"
     }
 ]
