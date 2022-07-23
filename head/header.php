@@ -1,3 +1,5 @@
+<!-- TODO: Search bar -->
+<!-- TODO: Cart link -->
 <section class="header">
     <style><?php require __DIR__ . "/" . "style.css"; ?></style>
     <script><?php require __DIR__ . "/" . "script.js"; ?></script>

@@ -27,14 +27,16 @@ following design goals aspire to achieve those goals:
 
 ### TODOs
 
-* Make Homepage/Store responsive
-* Implement cart on frontend using localStorage or whatever's most supported.
-* Integrate with one or two payment processors.
 * Write the About page.
 * Write the Contact page.
-* Implement the email subscribe feature in the footer
 * Implement policy pages for:
     + Terms and Conditions
     + Privacy Policy
     + Cookie Policy
     + Accessibility Policy
+
+* Implement cart on frontend using localStorage or whatever's most supported.
+* Integrate with some payment processors
+* Implement the email subscribe feature in the footer
+
+* (DONE) Make Homepage/Store responsive

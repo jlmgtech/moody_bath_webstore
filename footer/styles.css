@@ -17,6 +17,7 @@
 ul.footer-nav {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     list-style: none;
 }
@@ -41,6 +42,7 @@ ul.footer-nav li a[href] {
     color: #fff;
     background-color: #000;
     transition: background-color 0.3s ease-in-out;
+    box-sizing: border-box;
 }
 .email-subscribe input:focus {
     outline: none;
@@ -74,6 +76,7 @@ ul.footer-nav li a[href] {
 .copyright p {
     font-size: 0.8em;
     width: 100%;
+    color: #ffffff88;
 }
 
 .copyright a[href] {
@@ -85,4 +88,40 @@ ul.footer-nav li a[href] {
     border-radius: 4px;
     text-decoration: none;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-title {
+        margin: 7em auto;
+    }
+    .footer-title a[href].logo {
+        font-size: 1.5em;
+    }
+    .email-subscribe {
+        display: block;
+    }
+    .email-subscribe input {
+        width: 100%;
+        border-radius: 0;
+    }
+    .email-subscribe button {
+        width: 100%;
+        border-radius: 0;
+        flex-wrap: wrap;
+    }
+
+    ul.footer-nav {
+        padding: 0;
+        text-align: left;
+    }
+    ul.footer-nav li {
+        padding: 0.5em 1em;
+        margin: 0.5em 0;
+        width: 50%;
+        border-bottom: 1px solid #ffffff33;
+    }
+    .copyright a[href] {
+        display: block;
+        margin: 0.5em 0;
+    }
 }

@@ -76,7 +76,6 @@
     font-weight: bold;
     margin: 2em auto;
     text-align: center;
-    width: 100%;
     padding: 10px;
 }
 
@@ -85,4 +84,15 @@ hr {
     border-top: 1px solid #ccc;
     width: 80%;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .item {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 512px) {
+    .item {
+        width: 100%;
+    }
 }
