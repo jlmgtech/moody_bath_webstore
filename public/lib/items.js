@@ -1,19 +1,3 @@
-// for testing:
-localStorage.setItem("items", JSON.stringify([
-    {
-        "name": "Item 1",
-        "qty": "1"
-    },
-    {
-        "name": "Item 2",
-        "qty": "2"
-    },
-    {
-        "name": "Item 3",
-        "qty": "3"
-    },
-]));
-
 export function getItems() {
     return JSON.parse(localStorage.getItem("items"));
 }
@@ -24,7 +8,9 @@ export function getItem(name) {
 
 export function addItem(item) {
     let items = JSON.parse(localStorage.getItem("items"));
-    items.push(item);
+    let old = items.find(i => i.name === item.name);
+    if (old) old.qty++;
+    else items.push(item);
     localStorage.setItem("items", JSON.stringify(items));
 }
 
@@ -42,6 +28,8 @@ export function updateItem(name, qty) {
     }
     let items = JSON.parse(localStorage.getItem("items"));
     let item = items.find(item => item.name === name);
-    item.qty = qty;
-    localStorage.setItem("items", JSON.stringify(items));
+    if (item) {
+        item.qty = qty;
+        localStorage.setItem("items", JSON.stringify(items));
+    }
 }
