@@ -21,12 +21,11 @@
                 <p class="description"><?php echo $item["description"];?></p>
                 <p class="price"><i>$</i><?php printf('%01.2f', $item["price"]);?></p>
                 <div>
-                <a href="<?php printf("/item/%s.php", $item["id"]); ?>" class="shop-btn">SHOP NOW</a>
+                <a href="<?php printf("/item.php?item=%s", $item["slug"]); ?>" class="shop-btn">SHOP NOW</a>
                 </div>
             </div>
         </li>
 
     <?php } ?>
 
-    </section>
 </section>

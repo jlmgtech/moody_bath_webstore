@@ -1,0 +1,26 @@
+section.about {
+    width: 66%;
+    margin: auto;
+}
+
+section.about h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+section.about p {
+    font-size: 1.2em;
+    text-align: left;
+    text-align: justify;
+    margin-bottom: 1em;
+}
+
+section.about .about-image {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+section.about .about-image img {
+    width: 100%;
+}

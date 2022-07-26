@@ -8,7 +8,7 @@
         <ul>
 
             <li>
-                <div class="image" style="background-image: url('/store/images/pexels-cottonbro-4155435.jpg');"></div>
+                <div class="image" style="background-image: url('/images/items/pexels-cottonbro-4155435.jpg');"></div>
                 <div class="info">
                     <h2>
                         Clarity
@@ -24,7 +24,7 @@
             </li>
 
             <li>
-                <div class="image" style="background-image: url('/store/images/pexels-cottonbro-4155435.jpg');"></div>
+                <div class="image" style="background-image: url('/images/items/pexels-cottonbro-4155435.jpg');"></div>
                 <div class="info">
                     <h2>
                         Clarity
@@ -40,7 +40,7 @@
             </li>
 
             <li>
-                <div class="image" style="background-image: url('/store/images/pexels-cottonbro-4155435.jpg');"></div>
+                <div class="image" style="background-image: url('/images/items/pexels-cottonbro-4155435.jpg');"></div>
                 <div class="info">
                     <h2>
                         Clarity

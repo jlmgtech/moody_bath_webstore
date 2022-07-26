@@ -4,28 +4,28 @@
         "name": "happiness",
         "price": 5,
         "description": "Bath ritual package for positivity and joy",
-        "image": "/store/images/pexels-cottonbro-4155490.jpg"
+        "image": "/images/items/pexels-cottonbro-4155490.jpg"
     },
     {
         "slug": "serene-bath",
         "name": "serenety",
         "price": 4.95,
         "description": "Bath ritual package for serenity and peace",
-        "image": "/store/images/pexels-cottonbro-4155435.jpg"
+        "image": "/images/items/pexels-cottonbro-4155435.jpg"
     },
     {
         "slug": "compassion-bath",
         "name": "compassion",
         "price": 6.95,
         "description": "Bath ritual package for compassion and love",
-        "image": "/store/images/pexels-monstera-6620882.jpg"
+        "image": "/images/items/pexels-monstera-6620882.jpg"
     },
     {
         "slug": "intuition-ritual",
         "name": "intuition",
         "price": 7.3,
         "description": "Ritual package for intuition and insight",
-        "image": "/store/images/pexels-karolina-grabowska-4040638.jpg"
+        "image": "/images/items/pexels-karolina-grabowska-4040638.jpg"
     },
 
     {
@@ -33,27 +33,27 @@
         "name": "devotion",
         "price": 5,
         "description": "Bath ritual package for devotion and dedication",
-        "image": "/store/images/pexels-cottonbro-4155447.jpg"
+        "image": "/images/items/pexels-cottonbro-4155447.jpg"
     },
     {
         "slug": "intention-bath",
         "name": "intention",
         "price": 4.95,
         "description": "Bath ritual package for intention and purpose",
-        "image": "/store/images/pexels-cottonbro-7190316.jpg"
+        "image": "/images/items/pexels-cottonbro-7190316.jpg"
     },
     {
         "slug": "optimism-bath",
         "name": "optimism",
         "price": 6.95,
         "description": "Bath ritual package for optimism and confidence",
-        "image": "/store/images/pexels-monstera-6620948.jpg"
+        "image": "/images/items/pexels-monstera-6620948.jpg"
     },
     {
         "slug": "clarity-ritual",
         "name": "clarity",
         "price": 7.3,
         "description": "Ritual package for clarity and perspective",
-        "image": "/store/images/pexels-karolina-grabowska-4040589.jpg"
+        "image": "/images/items/pexels-karolina-grabowska-4040589.jpg"
     }
 ]

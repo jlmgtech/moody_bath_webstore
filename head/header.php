@@ -9,16 +9,16 @@
     <div class="nav">
         <nav>
             <span class="nav-title">
-                <a href="index.html" class="logo">
+                <a href="/" class="logo">
                     MOODY BATH CO.
                 </a>
             </span>
             <div>
                 <ul class="hidden">
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="/">Shop</a></li>
+                    <li><a href="/about.php">About</a></li>
+                    <li><a href="/contact.php">Contact</a></li>
+                    <li><a href="/cart.php">Cart</a></li>
                     <li>
                         <svg viewBox="0 -115 600 600" width="15" height="15">
                                 <path

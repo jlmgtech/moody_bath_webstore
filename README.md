@@ -27,16 +27,15 @@ following design goals aspire to achieve those goals:
 
 ### TODOs
 
-* Write the About page.
-* Write the Contact page.
-* Implement policy pages for:
-    + Terms and Conditions
-    + Privacy Policy
-    + Cookie Policy
-    + Accessibility Policy
-
 * Implement cart on frontend using localStorage or whatever's most supported.
 * Integrate with some payment processors
 * Implement the email subscribe feature in the footer
 
+* (DONE) Write the Contact page.
 * (DONE) Make Homepage/Store responsive
+* (DONE) Write the About page.
+* (GOOD ENOUGH FOR NOW) Implement policy pages for:
+    + Terms and Conditions
+    + (DONE) Privacy Policy
+    + Cookie Policy
+    + Accessibility Policy
