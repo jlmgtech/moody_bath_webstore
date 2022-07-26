@@ -1,14 +1,14 @@
 <style><?php require_once __DIR__ . "/" . "styles.css";?></style>
-<script><?php require_once __DIR__ . "/" . "script.js";?></script>
+<script type="module"><?php require_once __DIR__ . "/" . "script.js";?></script>
 <section class="cart">
     <!-- TODO: show all items and do the checkout process here -->
-    <h1>Shopping Cart - 3 items <span class="X" onclick="cartX()">X</span></h1>
+    <h1>Shopping Cart - 3 items <span class="X" onclick="cartClose()">X</span></h1>
     <div id="cart-container">
 
         <ul>
 
             <li>
-                <div class="image" style="background-image: url('/images/items/pexels-cottonbro-4155435.jpg');"></div>
+                <div class="image" style="background-image: url('https://via.placeholder.com/480x320');"></div>
                 <div class="info">
                     <h2>
                         Clarity
@@ -24,7 +24,7 @@
             </li>
 
             <li>
-                <div class="image" style="background-image: url('/images/items/pexels-cottonbro-4155435.jpg');"></div>
+                <div class="image" style="background-image: url('https://via.placeholder.com/480x320');"></div>
                 <div class="info">
                     <h2>
                         Clarity
@@ -40,7 +40,7 @@
             </li>
 
             <li>
-                <div class="image" style="background-image: url('/images/items/pexels-cottonbro-4155435.jpg');"></div>
+                <div class="image" style="background-image: url('https://via.placeholder.com/480x320');"></div>
                 <div class="info">
                     <h2>
                         Clarity

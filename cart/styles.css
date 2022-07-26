@@ -1,4 +1,4 @@
-#encap {
+#encap.blur {
     filter: blur(5px);
 }
 
@@ -13,8 +13,11 @@ section.cart {
     padding: 0;
     background: #fff;
     z-index: 9999;
-    /* transform: translateX(-100%); */
+    transform: translateX(100%);
     transition: all 0.3s ease-in-out;
+}
+section.cart.open {
+    transform: translateX(0);
 }
 
 section.cart h1 {
@@ -65,7 +68,7 @@ section.cart h1 .X {
 
 #cart-container .image {
     width: 30%;
-    background-size: cover;
+    background-size: 100% auto;
 }
 #cart-container .info {
     width: 80%;
@@ -133,7 +136,7 @@ section.cart h1 .X {
 #checkout-btn {
     background: #000;
     color: #fff;
-    padding: 0.5em 1em;
+    padding: 1em 1em;
     border: none;
     border-radius: 0;
     cursor: pointer;
