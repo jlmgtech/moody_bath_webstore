@@ -11,6 +11,7 @@
 <?php require __DIR__ . "/" . "../store/store.php"; ?>
 <?php require __DIR__ . "/" . "../footer/footer.php"; ?>
 </section>
+<?php require __DIR__ . "/" . "../cart/cart.php"; ?>
 
     </body>
 </html>

@@ -1,6 +1,6 @@
 <!-- TODO: Search bar -->
 <!-- TODO: Cart link -->
-<script>
+<script type="module">
 const items = <?php echo file_get_contents(__DIR__ . "/" . "../store/items.json"); ?>;
 for (const item of items) {
     item.qty = (Math.random() * 3 + 1) | 0;
@@ -9,7 +9,7 @@ localStorage.setItem("items", JSON.stringify(items));
 </script>
 <section class="header">
     <style><?php require __DIR__ . "/" . "style.css"; ?></style>
-    <script><?php require __DIR__ . "/" . "script.js"; ?></script>
+    <script type="module"><?php require __DIR__ . "/" . "script.js"; ?></script>
     <div class="topbar">
         <span class="accent">FREE SHIPPING</span> WITH ORDERS &gt; $80
     </div>

@@ -39,3 +39,27 @@ following design goals aspire to achieve those goals:
     + (DONE) Privacy Policy
     + Cookie Policy
     + Accessibility Policy
+
+
+### PLUGIN SYSTEM ###
+
+    registerPlugin("nav", {
+        start() {},
+        set(name, html) {}, // null html means remove
+    });
+
+    // ====================== //
+
+    registerPlugin("cart", {
+
+        start() {
+            await plug("nav", "set", "cart", await plug("cart", "render"));
+        },
+
+        render() {
+            return `
+                <span onclick="plug('cart', 'open', event)">Cart</span>
+            `;
+        },
+
+    });
