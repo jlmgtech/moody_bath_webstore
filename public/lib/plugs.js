@@ -33,6 +33,7 @@ export async function plug(name, method, ...args) {
         // plugin is requested, wait for it to load
         plugins[name] = await plugins[name];
     }
+    //console.log("dispatch %s.%s(%s)", name, method, JSON.stringify(args).slice(1, -1));
     return plugins[name][method](...args);
 }
 window.plug = plug;

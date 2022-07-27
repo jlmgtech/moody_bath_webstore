@@ -1,4 +1,139 @@
 section.item {
+    margin: 6vh 0;
+}
+
+section.item .item-container {
     width: 66%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+section.item .img {
+    width: 45%;
+    height: 60vh;
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+section.item .info {
+    width: 45%;
+    text-align: left;
+}
+
+section.item .info h1 {
+    color: #222;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+section.item .info small {
+    display: block;
+    margin-bottom: 1em;
+}
+
+section.item .price {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+section.item .old-price {
+    font-size: 1.2rem;
+    color: #ccc;
+    text-decoration: line-through;
+    margin: 0;
+}
+
+section.item .new-price {
+    font-size: 1.2rem;
+    color: #000;
+    margin: 0;
+}
+
+section.item .description {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+section.item .quantity-title {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+section.item .quantity-box {
+    width: 100px;
+    height: 2em;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+}
+
+section.item .quantity-box .btn {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+section.item .quantity-box .btn:hover {
+    background-color: #ddd;
+    color: #000;
+    transition: background 0.3s ease-in-out;
+}
+
+section.item .quantity-box .btn:first-child {
+    border-right: 1px solid #ddd;
+}
+section.item .quantity-box .btn:last-child {
+    border-left: 1px solid #ddd;
+}
+
+section.item .quantity-box .number {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+section.item .ctoa {
+    width: 100%;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 300;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin: 1em 0;
+}
+
+section.item .add-to-cart {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+}
+
+section.item .buy-now {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #000;
 }

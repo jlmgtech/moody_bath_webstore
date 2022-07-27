@@ -68,10 +68,9 @@ cart.update = () => {
         <div><div>Total</div>               <div>$${currency(total)}</div></div>
     `;
 
-    const nitems = cart.numItems();
-    const nitem_el = document.getElementById("nitems");
-    if (nitem_el) {
-        nitem_el.innerHTML = nitems;
+    const nitems = document.getElementById("nitems");
+    if (nitems) {
+        nitems.innerHTML = items.length;
         if (items.length > 0) {
             document.getElementById("nitems").classList.remove("hidden");
         } else {
@@ -79,15 +78,6 @@ cart.update = () => {
         }
     }
 };
-
-cart.numItems = () => {
-    let qty = 0;
-    for (const item of cart.items()) {
-        qty += item.qty;
-    }
-    return qty;
-};
-
 cart.close = e => {
     document.querySelector("section.cart").classList.remove("open");
     document.getElementById("encap").classList.remove("blur");
@@ -104,10 +94,8 @@ cart.items = () => getCart();
 cart.itemX = i(u(item => removeCartItem(item.name)));
 cart.minus = i(u(item => subtractCartItem(item.name)));
 cart.plus  = i(u(item => addCartItem(item)));
-cart.add = i(u(async (item, qty) => {
-    console.log("qty recvd: ", qty);
-    qty = qty || 1;
-    addCartItem(item, qty);
+cart.add = i(u(async item => {
+    addCartItem(item);
     // run open AFTER the cart update
     setTimeout(cart.open);
     console.log("we're here");
@@ -140,6 +128,6 @@ cart.init = async () => {
     document.getElementById("encap").onclick = () => plug("cart", "close");
     await plug("cart", "update");
     // now update the cart icon
-    plug("nav", "add", "cart", cartNavIcon(cart.numItems()));
+    plug("nav", "add", "cart", cartNavIcon(cart.items().length));
 };
 register("cart", cart);

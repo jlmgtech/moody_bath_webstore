@@ -3,6 +3,7 @@
         "slug": "happiness-bath",
         "name": "happiness",
         "price": 5,
+        "oldprice": 7,
         "description": "Bath ritual package for positivity and joy",
         "image": "/images/items/pexels-cottonbro-4155490.jpg"
     },
@@ -10,6 +11,7 @@
         "slug": "serene-bath",
         "name": "serenety",
         "price": 4.95,
+        "oldprice": 7,
         "description": "Bath ritual package for serenity and peace",
         "image": "/images/items/pexels-cottonbro-4155435.jpg"
     },
@@ -17,6 +19,7 @@
         "slug": "compassion-bath",
         "name": "compassion",
         "price": 6.95,
+        "olprice": 7.95,
         "description": "Bath ritual package for compassion and love",
         "image": "/images/items/pexels-monstera-6620882.jpg"
     },
@@ -24,6 +27,7 @@
         "slug": "intuition-ritual",
         "name": "intuition",
         "price": 7.3,
+        "oldprice": 8.3,
         "description": "Ritual package for intuition and insight",
         "image": "/images/items/pexels-karolina-grabowska-4040638.jpg"
     },
@@ -32,6 +36,7 @@
         "slug": "devotion-bath",
         "name": "devotion",
         "price": 5,
+        "oldprice": 6,
         "description": "Bath ritual package for devotion and dedication",
         "image": "/images/items/pexels-cottonbro-4155447.jpg"
     },
@@ -39,6 +44,7 @@
         "slug": "intention-bath",
         "name": "intention",
         "price": 4.95,
+        "oldprice": 5.95,
         "description": "Bath ritual package for intention and purpose",
         "image": "/images/items/pexels-cottonbro-7190316.jpg"
     },
@@ -46,6 +52,7 @@
         "slug": "optimism-bath",
         "name": "optimism",
         "price": 6.95,
+        "oldprice": 7.95,
         "description": "Bath ritual package for optimism and confidence",
         "image": "/images/items/pexels-monstera-6620948.jpg"
     },
@@ -53,6 +60,7 @@
         "slug": "clarity-ritual",
         "name": "clarity",
         "price": 7.3,
+        "oldprice": 8.3,
         "description": "Ritual package for clarity and perspective",
         "image": "/images/items/pexels-karolina-grabowska-4040589.jpg"
     }

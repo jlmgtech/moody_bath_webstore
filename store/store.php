@@ -8,7 +8,7 @@
 
 
     <?php
-    $items = json_decode(file_get_contents(__DIR__ . "/" . "items.json"), true);
+    $items = json_decode(file_get_contents(__DIR__ . "/" . "../public/data/inventory.json"), true);
     foreach ($items as $item) {
     ?>
 

@@ -1,11 +1,11 @@
 <!-- TODO: Search bar -->
 <!-- TODO: Cart link -->
 <script type="module">
-const items = <?php echo file_get_contents(__DIR__ . "/" . "../store/items.json"); ?>;
-for (const item of items) {
+const inventory = <?php echo file_get_contents(__DIR__ . "/" . "../public/data/inventory.json"); ?>;
+for (const item of inventory) {
     item.qty = (Math.random() * 3 + 1) | 0;
 }
-localStorage.setItem("items", JSON.stringify(items));
+localStorage.setItem("inventory", JSON.stringify(inventory));
 </script>
 <section class="header">
     <style><?php require __DIR__ . "/" . "style.css"; ?></style>

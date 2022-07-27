@@ -1,14 +1,14 @@
 <?php
 
-$fdata = file_get_contents(__DIR__ . "/" . "../store/items.json");
+$fdata = file_get_contents(__DIR__ . "/" . "../public/data/inventory.json");
 if (!$fdata) {
-    echo "Error: could not read items.json";
+    echo "Error: could not read inventory.json";
     exit(1);
 }
 
 $items = json_decode($fdata, true);
 if (!$items) {
-    echo "Error: could not decode items.json";
+    echo "Error: could not decode inventory.json";
     exit(1);
 }
 
