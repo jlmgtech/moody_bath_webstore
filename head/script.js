@@ -1,8 +1,8 @@
 import {plug, register} from "/lib/plugs.js";
 
-function navtoggle() {
+window.navtoggle = () => {
     document.querySelector("nav ul").classList.toggle("hidden");
-}
+};
 
 window.register("nav", {
 

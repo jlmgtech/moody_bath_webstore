@@ -12,6 +12,10 @@ body * {
     box-sizing: border-box;
 }
 
+#encap {
+    overflow: hidden;
+}
+
 section.header {
     background: linear-gradient(69deg, rgba(2,0,36,1) 0%, rgba(121,9,103,1) 35%, rgba(0,125,255,1) 100%);
     padding-bottom: 1em;

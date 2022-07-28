@@ -78,6 +78,10 @@ cart.update = () => {
             document.getElementById("nitems").classList.add("hidden");
         }
     }
+    const cart_nitems = document.getElementById("cart-nitems");
+    if (cart_nitems) {
+        cart_nitems.innerHTML = nitems + " items";
+    }
 };
 
 cart.numItems = () => {
@@ -97,8 +101,8 @@ cart.open = u(e => {
         e.preventDefault();
         e.stopPropagation();
     }
-    document.querySelector("section.cart").classList.add("open");
     document.getElementById("encap").classList.add("blur");
+    document.querySelector("section.cart").classList.add("open");
 });
 cart.items = () => getCart();
 cart.itemX = i(u(item => removeCartItem(item.name)));

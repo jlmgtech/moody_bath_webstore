@@ -6,6 +6,7 @@ section.item .item-container {
     width: 66%;
     margin: auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: top;
 }
@@ -136,4 +137,22 @@ section.item .buy-now {
     background-color: #333;
     color: #fff;
     border: 1px solid #000;
+}
+
+@media screen and (max-width: 1024px) {
+    section.item .item-container {
+        flex-direction: column;
+        width: 80%;
+        min-width: 320px;
+    }
+
+    section.item .img {
+        width: 100%;
+        margin-bottom: 5em;
+    }
+
+    section.item .info {
+        width: 100%;
+    }
+
 }

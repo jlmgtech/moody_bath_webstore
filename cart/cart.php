@@ -2,7 +2,16 @@
 <script type="module"><?php require_once __DIR__ . "/" . "script.js";?></script>
 <section class="cart">
     <!-- TODO: show all items and do the checkout process here -->
-    <h1>Shopping Cart - 3 items <span class="X" onclick='plug("cart", "close")'>X</span></h1>
+    <h1>
+        <span class="cart-title">
+            Shopping Cart 
+            <i id="cart-nitems"></i>
+        </span>
+        <span class="X" onclick='plug("cart", "close")'>
+            X
+        </span>
+    </h1>
+
     <div id="cart-container">
 
         <ul id="item-list"></ul>
