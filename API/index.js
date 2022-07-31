@@ -6,15 +6,14 @@ const app = express();
 
 app.use(express.json());
 app.post("/payment", async (req, res) => {
-    // get details from the JSON body
-    const { token, items } = req.body;
-    if (typeof token !== "string") {
-        res.status(400).json({ error: "missing string token" });
+
+    if (typeof req.body.token !== "string") {
+        res.status(400).json({ error: "missing string req.body.token" });
         return;
     }
 
     let amount = 0;
-    for (const [itemname, quantity] of Object.entries(items)) {
+    for (const [itemname, quantity] of Object.entries(req.body.items)) {
         // verify that the itemname actually exists and get the real price from the database,
         const item_price = await getItemPrice(itemname);
         if (item_price === null) {
@@ -56,7 +55,7 @@ app.post("/payment", async (req, res) => {
     //stripe.charges.create({
     //    amount,
     //    currency: 'usd',
-    //    source: token,
+    //    source: req.body.token,
     //    description: 'Test charge'
     //}, (err, charge) => {
     //    if (err) {
@@ -70,8 +69,8 @@ app.post("/payment", async (req, res) => {
 function getItemPrice(name) {
     // TODO - get actual prices
     const items = {
-        "item1": 10,
-        "item2": 20,
+        "item1": 1000,
+        "item2": 2000,
     };
     if (typeof items[name] === "undefined") {
         return Promise.resolve(null);
