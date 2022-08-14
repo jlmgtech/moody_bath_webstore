@@ -1,0 +1,3 @@
+[submodule "test/php_module_loader"]
+	path = test/php_module_loader
+	url = git@github.com:jlmgtech/php_module_loader.git
