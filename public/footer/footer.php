@@ -11,10 +11,10 @@
         </div>
 
         <ul class="footer-nav">
-            <li><a href="/">HOME</a></li>
-            <li><a href="/about.php">ABOUT</a></li>
-            <li><a href="/">STORE</a></li>
-            <li><a href="/contact.php">CONTACT</a></li>
+            <li><a href="<?= AutoRouter::get("Website", "index") ?>">HOME</a></li>
+            <li><a href="<?= AutoRouter::get("Website", "about") ?>">ABOUT</a></li>
+            <li><a href="<?= AutoRouter::get("Website", "index") ?>">STORE</a></li>
+            <li><a href="<?= AutoRouter::get("Website", "contact") ?>">CONTACT</a></li>
         </ul>
 
         <br><br>
@@ -28,11 +28,12 @@
 
         <div class="copyright">
             <p>&copy; <?php echo date("Y"); ?> Moody Bath Co. All rights reserved.</p>
-            <a href="/policies.php">Terms and Conditions</a>
-            <a href="/policies.php/#privacy">Privacy Policy</a>             <!-- TODO -->
-            <a href="/policies.php/#cookies">Cookie Policy</a>               <!-- TODO -->
-            <a href="/sitemap.xml">Site Map</a>                             <!-- TODO -->
-            <a href="/accessibility.php/#accessibility">Accessibility</a>   <!-- TODO -->
+            <a href="<?= AutoRouter::get("Website", "policies") ?>">Terms and Conditions</a>
+            <a href="<?= AutoRouter::get("Website", "policies") ?>#privacy">Privacy Policy</a>
+            <a href="<?= AutoRouter::get("Website", "policies") ?>#cookies">Cookie Policy</a>
+            <a href="/sitemap.xml">Site Map</a>
+            <a href="<?= AutoRouter::get("Website", "accessibility") ?>">Accessibility</a> 
+            <a href="<?= AutoRouter::get("AppMenu", "index") ?>">Admin</a>
         </div>
 
     </div>

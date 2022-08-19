@@ -11,8 +11,8 @@
             <small>NEW</small>
             <h1><?php echo $item["name"]; ?></h1>
             <div class="price">
-                <span class="old-price">$<?php echo money_format("%i", $item["oldprice"]); ?></span>
-                <span class="new-price">$<?php echo money_format("%i", $item["price"]); ?></span>
+                <span class="old-price">$<?= sprintf("%01.2f", $item["oldprice"]); ?></span>
+                <span class="new-price">$<?= sprintf("%01.2f", $item["price"]); ?></span>
             </div>
             <div class="description"><?php echo $item["description"]; ?></div>
 

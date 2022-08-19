@@ -3,6 +3,6 @@
     <h1>REACH OUT TO US!</h1>
     <p>
         We'd love to hear from you.
-        For more information, please send us <a href="mailto:<?php echo $email; ?>">an email</a>!.
+        For more information, please send us <a href="mailto:info@moodybathco.com">an email</a>!.
     </p>
 </section>

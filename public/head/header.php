@@ -16,15 +16,15 @@ localStorage.setItem("inventory", JSON.stringify(inventory));
     <div class="nav">
         <nav>
             <span class="nav-title">
-                <a href="/" class="logo">
+            <a href="<?= AutoRouter::get("Website", "index") ?>" class="logo">
                     MOODY BATH CO.
                 </a>
             </span>
             <div>
                 <ul class="hidden">
-                    <li><a href="/">Shop</a></li>
-                    <li><a href="/about.php">About</a></li>
-                    <li><a href="/contact.php">Contact</a></li>
+                    <li><a href="<?= AutoRouter::get("Website", "index") ?>">Shop</a></li>
+                    <li><a href="<?= AutoRouter::get("Website", "about") ?>">About</a></li>
+                    <li><a href="<?= AutoRouter::get("Website", "contact") ?>">Contact</a></li>
                     <li id="nav-dyn">
 <!--
                         <div class='nav-icon' onclick="searchOpen(event)">

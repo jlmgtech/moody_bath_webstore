@@ -2,7 +2,7 @@
 <html lang="en-US">
     <head>
         <title>Home</title>
-<?php require "../meta/meta.php"; ?>
+<?php require __DIR__ . "/" . "../meta/meta.php"; ?>
     </head>
     <body>
 

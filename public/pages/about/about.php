@@ -21,7 +21,7 @@
             We are a small business with a small team of dedicated employees. We
             are committed to providing the highest quality products and services
             to our customers. We are always looking for ways to improve our products
-            and services. If you have any questions, please <a href="/contact">contact us</a>.
+            and services. If you have any questions, please <a href="<?= AutoRouter::get("Website", "contact") ?>">contact us</a>.
         </p>
 
     </div>
