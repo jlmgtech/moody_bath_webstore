@@ -1,5 +1,11 @@
-        <meta charset="utf-8" />
-        <meta name="author" content="" />
-        <meta name="keywords" content="" />
-        <meta name="description" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="utf-8" />
+<meta name="author" content="" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+</style>
